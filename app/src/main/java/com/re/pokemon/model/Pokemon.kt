@@ -1,9 +1,9 @@
 package com.re.pokemon.model
 
-class Pokemon (
+class Pokemon(
     val id: Int,
     val name: String,
-    val sprites: PokemonSprites
+    val sprites: PokemonSprites,
 ) {
 
 }

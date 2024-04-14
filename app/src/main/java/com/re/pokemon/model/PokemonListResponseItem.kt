@@ -1,8 +1,10 @@
 package com.re.pokemon.model
 
-import com.re.pokemon.Api
 
-class PokemonResponseItem(
+/**
+ * This class represents a single pokemon item in the list of pokemons response from the API
+ */
+data class PokemonListResponseItem(
     val name: String,
     val url: String
 ) {
